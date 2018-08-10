@@ -20,6 +20,12 @@ Run `npm install` in the project directory to install all needed packages.
 
 `gulp zip` creates the zip file for competition and concatenates css/js in a single html file to add more optimisation
 
+## Coding fr JS13K
+
+We advice you to use functions instead of objects, for a better minification of your JS and take less place (so more place for more content).
+
+In source files files a prefixed with numbers to set the loading order order of your files. If you prefer you can define the loading order in gulp-config and ad them manually.
+
 ## Generate you final game
 
 run `gulp --production && gulp zip`
